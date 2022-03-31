@@ -296,8 +296,8 @@ public static String generateOtp()
 }
 public static void sendMail(String to,String otpStr)
 {
-	  String from = "info.amazoff@gmail.com"; // from address. As this is using Gmail SMTP your from address should be gmail
-	  String password = "Amazoff123"; // password for from gmail address that you have used in above line. 
+	  String from = ""; // from address. As this is using Gmail SMTP your from address should be gmail
+	  String password = ""; // password for from gmail address that you have used in above line. 
 	  Properties prop = new Properties();
 	  prop.put("mail.smtp.host", "smtp.gmail.com");
 	  prop.put("mail.smtp.port", "465");
